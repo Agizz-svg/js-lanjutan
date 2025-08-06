@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+.kotak{
+    width: 350px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+
+
+}
+
+p{
+    margin-bottom: 20px;
+    color: #0004ff;
+}
+
+input{
+    text-align: right;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 7px 10px;
+    font-size: 18px;
+
+}

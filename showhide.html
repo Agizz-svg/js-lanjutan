@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat show hide password di HTML dengan Javascript - www.malasngoding.com</title>
+    <link rel="stylesheet" type="text/css" href="showhide.css">
+
+</head>
+<body>
+    <center>
+        <h1>Membuat Show Hide Passsword <br> <a href="https://malasngoding.com">malasngoding.com</a></h1>
+    </center>
+    
+    <div class="box-login">
+        <form>
+
+            <center>
+                <h3>Login</h3>
+            </center>
+
+            <div class="box-form">
+            <label>Username</label>
+            <input type="text" placeholder="Masukkan username ..">
+            </div>
+
+            <div class="box-form">
+                <label>Password</label>
+                <!-- membuat form password dengan id "passwordKu" -->
+                <input type="password" id="passwordKu" placeholder="Masukkan username .." value="pwdmalasngoding">
+            </div>
+
+            <!-- membuat form checkbox dengan perintah menjalankan function showhide() saat diklik -->
+             <input type="checkbox" onclick="showHide()"> Tampilkan Password
+
+             <input type="submit" value="LOGIN" class="tombol-login">
+        </form>
+    </div>
+
+    <script src="showhide.js"></script>
+    
+</body>
+</html>
